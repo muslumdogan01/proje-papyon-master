@@ -65,9 +65,9 @@
         }
         .content-text {
             h1 {
-            
-                font-size: 40px;
-                line-height: 80px;
+                color: red;
+                font-size: 20px;
+                line-height: 50px;
          
             }
         }
@@ -83,5 +83,18 @@
   }
 
   @media screen and (max-width: 300px) {
+      
+    .content {
+        .content-img {
+        }
+        .content-text {
+            h1 {
+                color: red!important;
+                font-size: 30px;
+                line-height: 60px;
+         
+            }
+        }
+    }
       
   }
