@@ -1,0 +1,36 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ 
+    width: 100%;
+    .content-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .content-text {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        bottom: 50%;
+        right: 50%;
+        background-color: transparent!important;
+        transform: translate(50%, 50%);
+        h1 {
+            font-family: "IBM Plex Mono", monospace;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 90px;
+            line-height: 140px;
+            text-align: center;
+            color: #000000;
+            background-color: transparent!important;
+        }
+    }
+}

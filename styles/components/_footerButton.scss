@@ -1,0 +1,29 @@
+.footerHeader-button {
+    width: 1200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 110px 120px 150px 120px;
+    .button {
+        padding: 30px 540px;
+        background: #000000;
+        transition: 0.5s ease-in-out;
+
+        a {
+            color: white;
+            font-family: IBM Plex Mono;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 40px;
+            background-color: transparent!important;
+        }
+        .contact {
+            transition: 0.5s ease-in-out;
+        }
+        &:hover {
+            background-color: #1fcffe;
+        }
+    }
+}

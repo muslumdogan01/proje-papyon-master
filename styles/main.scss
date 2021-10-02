@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #F5F5F5;
+}
+
+// Product Css
+@import "./pages/product/product.scss";
+
+// Home Css
+
+@import "./pages/index.scss";
+
+// About Css
+
+@import "./pages/about/about.scss";
+
+// LOGO Css
+
+@import "./components/logo";
+
+// contact Css
+
+@import "./pages/contact/contact.scss";
+
+// Blog Css
+
+@import "./pages/blog/blog.scss";
+
+// navigation Css
+
+@import "./components/navigation.scss";
+
+// layout Css
+
+@import "./components/layout.scss";
+
+// Content Css
+
+@import "./components/content";
+
+// ContentItem Css
+
+@import "./components/contentItem";
+
+// ContentItemRoosefy CSS
+
+@import "./components/contentItemRoosefy";
+
+// ContentItemRoosefy CSS
+
+@import "./components/contentItemAstrodiac";
+
+// ContentItemNaricon CSS
+@import "./components/contentItemNaricon";
+
+// ContentItemQr CSS
+@import "./components/ContentItemQr.scss";
+
+//FOOTER CSS
+
+@import "./components/footerHeader";
+
+// FOOTER BUTTON
+
+@import "./components/footerButton";
+
+// RESPONSİVE DESİGN
+
+@import "./mobile/responsive.scss";

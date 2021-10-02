@@ -1,0 +1,87 @@
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 900px) {
+    
+    //CONTENT CSS
+
+    .content {
+        .content-img {
+        }
+        .content-text {
+            h1 {
+            
+                font-size: 40px;
+                line-height: 80px;
+         
+            }
+        }
+    }
+
+    //FOOTER CSS
+
+    .footerHeader{
+        padding: 0 !important;
+    }
+
+    .footerHeader .footerHeader-numbers{
+        padding: 15px!important;
+    }
+    .footerHeader-button{
+        margin: 10px!important;
+        width: 900px!important;
+        text-align: center;
+    }
+    .footerHeader-button .button{
+        padding: 20px 250px;
+        width: 100%;
+    }
+
+
+        //CONTENT CSS
+        
+
+
+    .footerHeader .footerHeader-numbers{
+        padding: 0!important;
+    }
+
+    // NARİCON
+
+
+    
+
+    // NARİCON
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    //CONTENT CSS
+
+    .content {
+        .content-img {
+        }
+        .content-text {
+            h1 {
+            
+                font-size: 40px;
+                line-height: 80px;
+         
+            }
+        }
+    }
+    
+        //CONTENTITEMS
+
+
+    .footerHeader .footerHeader-numbers{
+        padding: 0!important;
+    }
+    
+  }
+
+  @media screen and (max-width: 300px) {
+      
+  }
