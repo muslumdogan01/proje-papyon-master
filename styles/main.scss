@@ -6,7 +6,13 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  
+}
+body, html{
   background-color: #F5F5F5;
+}
+.toggle-close{
+  display: block;
 }
 
 // Product Css
@@ -23,6 +29,10 @@
 // LOGO Css
 
 @import "./components/logo";
+
+// HAMBURGER MENU Css
+
+@import "./components/HamburgerMenu";
 
 // contact Css
 
@@ -73,3 +83,4 @@
 // RESPONSİVE DESİGN
 
 @import "./mobile/responsive.scss";
+

@@ -13,28 +13,35 @@ function Navigation() {
           rel="stylesheet"
         />
       </Head>
-      <ul>
-        <li>
-          <Link href="/Product">
-            <a>Product</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/Blog">
-            <a>Blog</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/About">
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/Contact">
-            <a>Contact</a>
-          </Link>
-        </li>
-      </ul>
+
+      <div class="hamburger-menu">
+        <ul class="menu__box">
+          <li>
+            {" "}
+            <Link href="/Product">
+              <a className="menu__item">Product</a>
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link href="/Blog">
+              <a className="menu__item">Blog</a>
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link href="/About">
+              <a className="menu__item">About</a>
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link href="/Contact">
+              <a className="menu__item">Contact</a>
+            </Link>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 }

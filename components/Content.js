@@ -14,7 +14,9 @@ function Content() {
           rel="stylesheet"
         />
       </Head>
+      <div className="content-img">
       <Image className="content-img" src={bgImage} />
+      </div>
       <div className="content-text">
         <h1>Apps That Touch</h1>
         <h1>Your Life</h1>

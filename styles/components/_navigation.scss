@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    ul {
+    .menu__box {
         display: flex;
         width: 414px;
         justify-content: space-around;
@@ -43,4 +43,5 @@ nav {
             }
         }
     }
+
 }

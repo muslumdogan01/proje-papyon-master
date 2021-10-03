@@ -5,8 +5,8 @@ import astrodiacP from "../public/image/astrodiactP.png";
 
 function ContentItemAstrodiac() {
   return (
-    <div className="items-box2">
-      <span className="items-box2-header">AstroDiac</span>
+    <div className="astrodiac">
+      <span className="astrodiac-header">AstroDiac</span>
       <p>Content design creation for social media</p>
 
       <div className="items-img">
