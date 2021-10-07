@@ -80,8 +80,8 @@
   //CONTENT CSS
 
   .content {
-    .content-img {
-    }
+    // .content-img {
+    // }
     .content-text {
       h1 {
         font-size: 40px;
@@ -100,10 +100,14 @@
     justify-content: center;
     align-items: center;
     span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
       width: 300px !important;
       height: 350px !important;
       margin: 10px;
-        border: none !important;
+      border: none !important;
     }
   }
 
@@ -129,6 +133,7 @@
       font-size: 25px;
       line-height: 44px;
       margin: 0 !important;
+      margin-left: 5px !important;
       color: #ffff;
       width: 135px !important;
       height: 40px !important;
@@ -142,18 +147,19 @@
       font-size: 12px !important;
       color: #ffffff;
       line-height: 36px;
-     margin: 0 !important;
+      margin: 0 !important;
+      margin-left: 20px !important;
       // margin: 10px 76px 20px 40px;
     }
     .items-img-dot {
       position: absolute;
-      top: 50px !important;
-      left: 10px !important;
+      top: 61px !important;
+      left: 14px !important;
       img {
-          top: 25px !important;
-          left: 30px !important;
-          margin: 0 !important;
-          padding: 0 !important;
+        top: 25px !important;
+        left: 30px !important;
+        margin: 0 !important;
+        padding: 0 !important;
         min-width: 55% !important;
         max-width: 55% !important;
         min-height: 70% !important;
@@ -166,7 +172,7 @@
       display: inline-flex;
       width: 300px !important;
       height: 300px !important;
-      transform: translate(0%, 28%);
+      transform: translate(0%, 31%) !important;
 
       .roosfyP {
         min-width: 100% !important;
@@ -187,6 +193,8 @@
     overflow: hidden;
     transition: 0.5s ease-in-out;
     cursor: pointer;
+    margin: 0 !important;
+    margin-top: 30px !important;
     &:hover {
       transform: translateY(-20px);
       opacity: 0.7;
@@ -198,6 +206,8 @@
       font-weight: 500;
       font-size: 25px;
       line-height: 44px;
+      margin: 0 !important;
+      margin-left: 15px !important;
       color: #ffff;
       width: 135px !important;
       height: 40px !important;
@@ -208,9 +218,11 @@
       font-family: "Inter", sans-serif;
       font-style: normal;
       font-weight: 400;
-      font-size: 12px;
+      font-size: 12px !important;
       color: #ffffff;
-      line-height: 15px;
+      line-height: 36px;
+      margin: 0 !important;
+      margin-left: 15px !important;
       // margin: 10px 76px 20px 40px;
     }
     .roosfyN {
@@ -220,28 +232,181 @@
     .items-img {
       position: absolute;
       display: inline-flex;
-      width: 280px !important;
-      height: 350px !important;
-      top: 0;
-      right: 0;
-      transform: translate(-6%, -3%);
-      z-index: 20;
+      width: 300px !important;
+      height: 335px !important;
+      transform: translate(0%, 5%) !important;
 
+      img {
+        min-width: 69% !important;
+        max-width: 69% !important;
+        min-height: 90% !important;
+        max-height: 90% !important;
+        display: inline-flex;
+        object-fit: cover;
+      }
+    }
+    .items-imgBg {
+      position: absolute;
+      bottom: -10px !important;
+      right: 20px !important;
       img {
         top: 25px !important;
         left: 30px !important;
         margin: 0 !important;
         padding: 0 !important;
-        min-width: 100% !important;
-        max-width: 100% !important;
-        min-height: 100% !important;
-        max-height: 100% !important;
+        min-width: 80% !important;
+        max-width: 80% !important;
+        min-height: 70% !important;
+        max-height: 70% !important;
       }
     }
-    .items-imgBg {
+  }
+
+  .naricon {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    width: 270px !important;
+    overflow: hidden;
+    height: 350px !important;
+    background-color: rgba(9, 2, 53, 1);
+    margin: 0 !important;
+    margin-top: 50px !important;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      transform: translateY(-20px);
+      opacity: 0.7;
+    }
+    .items-box-header {
+      font-family: "IBM Plex Mono", monospace;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 44px;
+      margin: 0 !important;
+      margin-left: 0 !important;
+      color: #ffff;
+      width: 135px !important;
+      height: 40px !important;
+      border: none !important;
+      // margin: 40px 277px 0 20px;
+    }
+    p {
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px !important;
+      color: #ffffff;
+      line-height: 36px;
+      margin: 0 !important;
+      margin-left: 15px !important;
+      // margin: 10px 76px 20px 40px;
+    }
+
+    .items-img-dot {
       position: absolute;
-      bottom: 90px;
-      right: 45px;
+      top: 61px !important;
+      right: -15px !important;
+      img {
+        padding: 0 !important;
+        min-width: 60% !important;
+        max-width: 60% !important;
+        min-height: 70% !important;
+        max-height: 70% !important;
+      }
+    }
+
+    .items-img-phone {
+      position: absolute;
+      display: inline-flex;
+      width: 300px !important;
+      height: 300px !important;
+      transform: translate(0%, 5%);
+
+      img {
+        min-width: 69% !important;
+        max-width: 69% !important;
+        min-height: 90% !important;
+        max-height: 90% !important;
+        display: inline-flex;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .qrScan {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    width: 270px !important;
+    overflow: hidden;
+    height: 350px !important;
+    background-color: rgba(37, 53, 175, 1);
+    margin: 0 !important;
+    margin-top: 60px !important;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      transform: translateY(-20px);
+      opacity: 0.7;
+    }
+    .items-box-header {
+      font-family: "IBM Plex Mono", monospace;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 44px;
+      margin: 0 !important;
+      margin-left: 0 !important;
+      color: #ffff;
+      width: 135px !important;
+      height: 40px !important;
+      border: none !important;
+      // margin: 40px 277px 0 20px;
+    }
+    p {
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px !important;
+      color: #ffffff;
+      line-height: 36px;
+      margin: 0 !important;
+      margin-left: 15px !important;
+      // margin: 10px 76px 20px 40px;
+    }
+    .items-img-dot {
+      position: absolute;
+      top: 61px !important;
+      left: 14px !important;
+      img {
+        top: 75px !important;
+        left: 20px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        min-width: 70% !important;
+        max-width: 70% !important;
+        min-height: 90% !important;
+        max-height: 90% !important;
+      }
+    }
+
+    .items-img-phone {
+      position: absolute;
+      display: inline-flex;
+      width: 300px !important;
+      height: 300px !important;
+      transform: translate(-7%, 0%) !important;
+
+      img {
+        min-width: 71% !important;
+        max-width: 71% !important;
+        min-height: 96% !important;
+        max-height: 91% !important;
+        display: inline-flex;
+        object-fit: cover;
+      }
     }
   }
 

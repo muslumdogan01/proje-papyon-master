@@ -6,10 +6,12 @@ import naricon from "../public/image/nariconPng.png";
 function ContentItemNaricon() {
   return (
     <div className="naricon">
-      <span className="naricon-header">Naricon</span>
+      <span className="items-box-header">Naricon</span>
       <p>Content design creation for social media</p>
-      <Image className="roosfyN" src={roosefyN} />
-      <div className="items-img">
+        <div className="items-img-dot">
+        <Image className="roosfyN" src={roosefyN} />
+        </div>
+      <div className="items-img-phone">
         <Image className="roosefyP" src={naricon} />
       </div>
     </div>
