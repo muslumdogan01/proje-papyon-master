@@ -9,7 +9,7 @@
         padding: 30px 540px;
         background: #000000;
         transition: 0.5s ease-in-out;
-
+        cursor: pointer;
         a {
             color: white;
             font-family: IBM Plex Mono;
@@ -23,7 +23,7 @@
             transition: 0.5s ease-in-out;
         }
         &:hover {
-            background-color: #1fcffe;
+            transform: translateY(-12px);
         }
     }
 }

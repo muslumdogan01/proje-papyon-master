@@ -3,11 +3,13 @@ import Link from "next/link";
 
 function FooterButton() {
   return (
-    <div className="button">
+  
       <Link href="/Contact" className="contact">
+          <div className="button">
         <a>Contact Us</a>
+        </div>
       </Link>
-    </div>
+
   );
 }
 
